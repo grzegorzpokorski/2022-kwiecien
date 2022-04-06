@@ -7,6 +7,7 @@
 $green: #00C865;
 $green-light: #CCF4E0;
 $gray: #222222;
+$grgay-light: #555555;
 $white: #ffffff;
 $white-green: #f4f9f4;
 $black: #000000;
@@ -16,6 +17,7 @@ $theme-colors:(
 	'green': $green,
 	'green-light': $green-light,
 	'gray': $gray,
+	'grgay-light': $grgay-light,
 	'white': $white,
 	'white-green': $white-green,
 	'black': $black,
@@ -38,7 +40,7 @@ $colors:();
 
 // Body
 
-$body-bg: $white;
+$body-bg: $white-green;
 $body-color: $gray;
 
 // Links
