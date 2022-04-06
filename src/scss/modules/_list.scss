@@ -20,6 +20,7 @@
 
 			&:after{
 				@extend .list__icon;
+				font-weight: $font-weight-bold;
 				counter-increment: lista;
 				content: counter(lista);
 			}
