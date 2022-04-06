@@ -21,3 +21,11 @@ p{
 .navbar-title{
 	font-size: 1.25rem;
 }
+
+.text-separator{
+	display: inline-block;
+	width: 2.5rem;
+	height: 0.125rem;
+	background-color: $gray;
+	margin: 0 .55rem;
+}
