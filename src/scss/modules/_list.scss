@@ -1,0 +1,22 @@
+.list{
+	list-style: none;
+	padding-bottom: 0;
+	padding-left: 0;
+	row-gap: 1.5rem;
+
+	&__icon-wrapper{
+		display: inline-block;
+		position: relative;
+		min-width: 4rem;
+		height: 4rem;
+	}
+
+	&__icon{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: $spacer * 1.5;
+		color: $white;
+	}
+}

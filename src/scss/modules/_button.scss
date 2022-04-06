@@ -1,0 +1,21 @@
+.btn{
+	&-green{
+		color: $white;
+
+		&:focus,
+		&:hover{
+			color: $white;
+		}
+	}
+
+	&-outline-green{
+		color: $green;
+
+		&:focus,
+		&:hover{
+			background-color: $green;
+			color: $white;
+		}
+	}
+}
+
