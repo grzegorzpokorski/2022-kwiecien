@@ -20,9 +20,16 @@
 		position: relative;
 		align-items: flex-end;
 
+		&:first-child{
+			&:after{
+				top: 50%;
+				height: 50%;
+			}
+		}
+
 		&:last-child{
 			&:after{
-				display: none;
+				height: 50%;
 			}
 		}
 
@@ -59,8 +66,8 @@
 			content: '';
 			position: absolute;
 			width: .25rem;
-			height: calc(100% + 2rem);
-			top: 50%;
+			height: calc(100%);
+			top: 0;
 			left: 1rem;
 			background-color: rgba($green, .15);
 			
